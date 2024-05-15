@@ -1,0 +1,27 @@
+// docs
+
+superset of JS
+same syntax as JS, but adds somthing extra to it.
+(Strong typing system like java,c++)
+(Extra capabilities by adding type to JS)
+
+allows developers to bind the type to variables nd func return statements. That helps to remove all type error during runtime
+
+suppose we are trying to access any property of obj which is not there.
+Then in ts we will get err before executin of program itself.
+But in js we vl get error during runtime 
+
+TS uses compile time type checking. It checks if the specified types match before running the  code,
+not while runnig code
+
+
+setup in local system 
+Node JS, TS Compiler, VS Code
+node -v -> version of the node 
+npm install -g typescript --> ts compiler 
+tsc -v  -> after installation verify
+
+to complile (.ts files):-
+tsc filename.ts (--watch for watch mode)
+it vl create a js file. Run it using node
+node filename.js
