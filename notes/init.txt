@@ -25,3 +25,17 @@ to complile (.ts files):-
 tsc filename.ts (--watch for watch mode)
 it vl create a js file. Run it using node
 node filename.js
+
+typescript types:
+In ts we create variable with types. SO that we can assign same type of values to variables 
+let x: number = 34;
+
+value 
+value is a thing that we assign to a variable
+ley y: number = 3562
+y- variable 
+number - type of variable 
+= : assignment variable 
+3562 : value assigned to variable 
+
+string - represent text data, number, boolean - true/false , null, undefined , void , Array, Any, Object Type, Union Type
